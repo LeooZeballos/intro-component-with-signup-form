@@ -18,6 +18,9 @@
   --dark-blue: hsl(249, 10%, 26%);
   --grayish-blue: hsl(246, 25%, 77%);
   --white: hsl(255, 100%, 100%);
+
+  /* Hover */
+  --green-hover: #77e2b4;
 }
 
 body {
@@ -31,4 +34,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("./assets/bg-intro-desktop.png");
+  }
 }
